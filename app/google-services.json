@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "863226171209",
+    "firebase_url": "https://chat-65e24.firebaseio.com",
+    "project_id": "chat-65e24",
+    "storage_bucket": "chat-65e24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863226171209:android:17a3961a8e749f76",
+        "android_client_info": {
+          "package_name": "com.diamond.diamond.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863226171209-36dkdbi3aapcemsd2ticbtvktlnkst79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-EUWYt82E0umyqiX9aQW-Pno8WEE4uYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863226171209-36dkdbi3aapcemsd2ticbtvktlnkst79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

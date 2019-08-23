@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".fragment.UsersFragment">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:background="@color/colorAccent"
+     android:id="@+id/cv"
+     android:padding="10dp"
+     android:layout_height="wrap_content">
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:src="@drawable/seach"
+      android:background="#ffffff"
+     android:id="@+id/search"
+
+      />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Tìm..."
+android:textColor="#727272"
+    android:layout_toRightOf="@id/search"
+    android:background="#ffffff"
+    android:id="@+id/seach_user"
+    />
+ </RelativeLayout>
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/recycler"
+
+
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_below="@id/cv"
+     android:layout_marginTop="1dp" />
+
+</RelativeLayout>
